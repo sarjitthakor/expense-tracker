@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Livewire\Expense\ExpenseList;
+use App\Livewire\ExpenseManager;
 
 // 🌐 Public routes
 Route::get('/', function () {
